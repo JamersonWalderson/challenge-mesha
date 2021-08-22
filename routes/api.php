@@ -16,9 +16,15 @@ use App\Http\Controllers\Api\DoctorController;
 |
 */
 
+//doctor
 Route::get('doctor', [DoctorController::class, 'index']);
 Route::get('doctor/{id}', [DoctorController::class, 'show']);
 
+//Speciality
+Route::get('speciality', [SpecialityController::class, 'index']);
+Route::get('speciality/{id}', [SpecialityController::class, 'show']);
+
+//access
 Route::post('/login', [AuthController::class, 'login'])->name('login');
 Route::post('/register', [AuthController::class, 'register']);
 
@@ -38,4 +44,11 @@ Route::group([
     Route::post('doctor', [DoctorController::class, 'store']);
     Route::put('doctor/{id}', [DoctorController::class, 'update']);
     Route::delete('doctor/{id}', [DoctorController::class,'destroy']);
+
+    //Speciality
+    Route::get('speciality', [SpecialityController::class, 'index']);
+    Route::get('speciality/{id}', [SpecialityController::class, 'show']);
+    Route::post('speciality', [SpecialityController::class, 'store']);
+    Route::put('speciality/{id}', [SpecialityController::class, 'update']);
+    Route::delete('speciality/{id}', [SpecialityController::class,'destroy']);
 });

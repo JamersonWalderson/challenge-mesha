@@ -10,13 +10,19 @@ use Illuminate\Http\Request;
 
 class DoctorController extends Controller
 {
-
+    /**
+     * Display a listing of the resource.
+     */
     public function index()
     {
         $doctor = Doctor::All();
         return DoctorCollection::collection($doctor);
     }
 
+    /**
+     * Store a newly created resource in storage.
+     *
+     */
     public function store(Request $request)
     {
         $doctor = new Doctor;
@@ -28,14 +34,20 @@ class DoctorController extends Controller
         }
     }
 
-
+    /**
+     * Display the specified resource.
+     *
+     */
     public function show($id)
     {
         $doctor = Doctor::find($id);
         return new DoctorCollection($doctor);
     }
 
-
+    /**
+     * Update the specified resource in storage.
+     *
+     */
     public function update(Request $request)
     {
         $doctor = Doctor::find($request->id);
@@ -47,7 +59,10 @@ class DoctorController extends Controller
         }
     }
 
-
+    /**
+     * Remove the specified resource from storage.
+     *
+     */
     public function destroy($id)
     {
         $doctor = Doctor::find($id);

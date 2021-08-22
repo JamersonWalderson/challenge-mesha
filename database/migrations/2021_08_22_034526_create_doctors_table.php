@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateScheduleTable extends Migration
+class CreateDoctorsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,14 +13,10 @@ class CreateScheduleTable extends Migration
      */
     public function up()
     {
-        Schema::create('schedule', function (Blueprint $table) {
+        Schema::create('doctors', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('speciality_id');
-            $table->date('date');
+            $table->string('name');
             $table->timestamps();
-
-            $table->foreign('speciality_id')->references('id')->on('speciality')->onDelete('CASCADE');
-            $table->engine = 'InnoDB';
         });
     }
 
@@ -31,6 +27,6 @@ class CreateScheduleTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('schedule');
+        Schema::dropIfExists('doctors');
     }
 }

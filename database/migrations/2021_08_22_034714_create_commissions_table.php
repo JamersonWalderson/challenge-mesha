@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateComissionTable extends Migration
+class CreateCommissionsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,13 @@ class CreateComissionTable extends Migration
      */
     public function up()
     {
-        Schema::create('comission', function (Blueprint $table) {
+        Schema::create('commissions', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('doctor_id');
             $table->decimal('comission', 8, 2);
             $table->timestamps();
 
-            $table->foreign('doctor_id')->references('id')->on('doctor')->onDelete('CASCADE');
+            $table->foreign('doctor_id')->references('id')->on('doctors')->onDelete('CASCADE');
             $table->engine = 'innoDB';
         });
     }
@@ -31,6 +31,6 @@ class CreateComissionTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('comission');
+        Schema::dropIfExists('commissions');
     }
 }

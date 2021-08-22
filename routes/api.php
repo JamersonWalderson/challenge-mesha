@@ -71,7 +71,7 @@ Route::group([
     Route::put('comission/{id}', [ComissionController::class, 'update']);
     Route::delete('comission/{id}', [ComissionController::class,'destroy']);
 
-    //Schedule
+    // Schedule
     Route::get('schedule', [ScheduleController::class, 'index']);
     Route::get('schedule/{id}', [ScheduleController::class, 'show']);
     Route::post('schedule', [ScheduleController::class, 'store']);

@@ -43,8 +43,8 @@ class DoctorController extends Controller
         $doctor->name = $request->input('name');
         
         if($doctor->save()){
-            return DoctorCollection::collection($doctor);
-            
+            return new DoctorCollection($doctor);
+
         }
     }
 

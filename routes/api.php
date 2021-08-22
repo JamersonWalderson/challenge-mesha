@@ -33,6 +33,8 @@ Route::group([
     Route::get('/user-profile', [AuthController::class, 'userProfile']);
 
     //Doctor
+    Route::get('doctor', [DoctorController::class, 'index']);
+    Route::get('doctor/{id}', [DoctorController::class, 'show']);
     Route::post('doctor', [DoctorController::class, 'store']);
     Route::put('doctor/{id}', [DoctorController::class, 'update']);
     Route::delete('doctor/{id}', [DoctorController::class,'destroy']);

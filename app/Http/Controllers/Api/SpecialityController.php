@@ -27,10 +27,15 @@ class SpecialityController extends Controller
     {
         $speciality = new Speciality;
         $speciality->name = $request->input('name');
+        dd($doctor_id);
+        $speciality->doctor_id = $doctor->id;
+        $speciality->price = $request->input('price');
         
         if($speciality->save()){
             return new SpecialityResource($speciality);
 
+        } else {
+            return "erro";
         }
     }
 

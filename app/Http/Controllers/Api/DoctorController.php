@@ -18,7 +18,6 @@ class DoctorController extends Controller
     public function index()
     {
         $doctor = Doctor::All();
-        
         return DoctorCollection::collection($doctor);
     }
 
@@ -40,7 +39,13 @@ class DoctorController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $doctor = new Doctor;
+        $doctor->name = $request->input('name');
+        
+        if($doctor->save()){
+            return DoctorCollection::collection($doctor);
+            
+        }
     }
 
     /**

@@ -17,21 +17,23 @@ use App\Http\Controllers\Api\DoctorController;
 */
 
 Route::get('doctor', [DoctorController::class, 'index']);
+Route::get('doctor/{id}', [DoctorController::class, 'show']);
+
+Route::post('/login', [AuthController::class, 'login'])->name('login');
+Route::post('/register', [AuthController::class, 'register']);
 
 Route::group([
     'middleware' => 'api',
     'prefix' => 'auth'
 
 ], function ($router) {
-    Route::post('/login', [AuthController::class, 'login'])->name('login');
-    Route::post('/register', [AuthController::class, 'register']);
+    
     Route::post('/logout', [AuthController::class, 'logout']);
     Route::post('/refresh', [AuthController::class, 'refresh']);
     Route::get('/user-profile', [AuthController::class, 'userProfile']);
 
     //Doctor
-    Route::get('artigo/{id}', [DoctorController::class, 'show']);
-    Route::post('artigo', [DoctorController::class, 'store']);
-    Route::put('artigo/{id}', [DoctorController::class, 'update']);
-    Route::delete('artigo/{id}', [DoctorController::class,'destroy']);
+    Route::post('doctor', [DoctorController::class, 'store']);
+    Route::put('doctor/{id}', [DoctorController::class, 'update']);
+    Route::delete('doctor/{id}', [DoctorController::class,'destroy']);
 });

@@ -24,6 +24,6 @@ class Speciality extends Model
 
     function doctor()
     {
-        return $this->belongTo(Doctor::class);
+        return $this->belongsTo(Doctor::class, 'doctor_id');
     }
 }

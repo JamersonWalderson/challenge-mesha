@@ -17,13 +17,6 @@ class DoctorController extends Controller
         return DoctorCollection::collection($doctor);
     }
 
-
-    public function create()
-    {
-        //
-    }
-
-
     public function store(Request $request)
     {
         $doctor = new Doctor;
@@ -38,7 +31,8 @@ class DoctorController extends Controller
 
     public function show($id)
     {
-        //
+        $doctor = Doctor::find($id);
+        return new DoctorCollection($doctor);
     }
 
 

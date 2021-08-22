@@ -6,6 +6,7 @@ use App\Http\Controllers\Api\AuthController;
 
 use App\Http\Controllers\Api\DoctorController; 
 use App\Http\Controllers\Api\SpecialityController;
+use App\Http\Controllers\Api\ComissionController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,6 +26,10 @@ Route::get('doctor/{id}', [DoctorController::class, 'show']);
 //Speciality
 Route::get('speciality', [SpecialityController::class, 'index']);
 Route::get('speciality/{id}', [SpecialityController::class, 'show']);
+
+//Comission
+Route::get('comission', [ComissiontyController::class, 'index']);
+Route::get('comission/{id}', [ComissionController::class, 'show']);
 
 //access
 Route::post('/login', [AuthController::class, 'login'])->name('login');
@@ -53,4 +58,12 @@ Route::group([
     Route::post('speciality', [SpecialityController::class, 'store']);
     Route::put('speciality/{id}', [SpecialityController::class, 'update']);
     Route::delete('speciality/{id}', [SpecialityController::class,'destroy']);
+
+    //Comission
+    Route::get('comission', [ComissionController::class, 'index']);
+    Route::get('comission/{id}', [ComissionController::class, 'show']);
+    Route::post('comission', [ComissionController::class, 'store']);
+    Route::put('comission/{id}', [ComissionController::class, 'update']);
+    Route::delete('comission/{id}', [ComissionController::class,'destroy']);
+
 });

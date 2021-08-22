@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers\Api;
 
+use App\Models\Speciality;
+use App\Http\Resources\SpecialityResource;
+
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
@@ -12,7 +15,8 @@ class SpecialityController extends Controller
      */
     public function index()
     {
-        //
+        $speciality = Speciality::All();
+        return SpecialityResource::collection($speciality);
     }
 
     /**
@@ -21,7 +25,13 @@ class SpecialityController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $speciality = new Speciality;
+        $speciality->name = $request->input('name');
+        
+        if($speciality->save()){
+            return new SpecialityResource($speciality);
+
+        }
     }
 
     /**
@@ -30,16 +40,23 @@ class SpecialityController extends Controller
      */
     public function show($id)
     {
-        //
+        $speciality = Speciality::find($id);
+        return new SpecialityResource($speciality);
     }
 
     /**
      * Update the specified resource in storage.
      *
      */
-    public function update(Request $request, $id)
+    public function update(Request $request)
     {
-        //
+        $speciality = Speciality::find($request->id);
+        $speciality->name = $request->input('name');
+        
+        if($speciality->save()){
+            return new SpecialityResource($speciality);
+            
+        }
     }
 
     /**
@@ -48,6 +65,10 @@ class SpecialityController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $speciality = Speciality::find($id);
+        if ($speciality->delete()){
+            return new SpecialityResource($speciality);
+
+        }
     }
 }

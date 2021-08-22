@@ -27,6 +27,7 @@ class SpecialityController extends Controller
     {
         $speciality = new Speciality;
         $speciality->name = $request->input('name');
+        // Existe um mutator que transforma doctor_id no nome do doutor
         $speciality->doctor_id = $request->input('doctor_id');
         $speciality->price = $request->input('price');
         

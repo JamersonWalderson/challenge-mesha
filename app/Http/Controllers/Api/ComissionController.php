@@ -25,6 +25,7 @@ class ComissionController extends Controller
     public function store(Request $request)
     {
         $comission = new Comission;
+        // Existe um mutator que transforma doctor_id no nome do doutor
         $comission->doctor_id = $request->input('doctor_id');
         $comission->comission = $request->input('comission');
 

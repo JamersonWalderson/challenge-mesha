@@ -7,6 +7,7 @@ use App\Http\Controllers\Api\AuthController;
 use App\Http\Controllers\Api\DoctorController; 
 use App\Http\Controllers\Api\SpecialityController;
 use App\Http\Controllers\Api\ComissionController;
+use App\Http\Controllers\Api\ScheduleController;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,8 +29,12 @@ Route::get('speciality', [SpecialityController::class, 'index']);
 Route::get('speciality/{id}', [SpecialityController::class, 'show']);
 
 //Comission
-Route::get('comission', [ComissiontyController::class, 'index']);
+Route::get('comission', [ComissionController::class, 'index']);
 Route::get('comission/{id}', [ComissionController::class, 'show']);
+
+//Schedule
+Route::get('schedule', [ScheduleController::class, 'index']);
+Route::get('comission/{id}', [ScheduleController::class, 'show']);
 
 //access
 Route::post('/login', [AuthController::class, 'login'])->name('login');
@@ -65,5 +70,12 @@ Route::group([
     Route::post('comission', [ComissionController::class, 'store']);
     Route::put('comission/{id}', [ComissionController::class, 'update']);
     Route::delete('comission/{id}', [ComissionController::class,'destroy']);
+
+    //Schedule
+    Route::get('schedule', [ScheduleController::class, 'index']);
+    Route::get('schedule/{id}', [ScheduleController::class, 'show']);
+    Route::post('schedule', [ScheduleController::class, 'store']);
+    Route::put('schedule/{id}', [ScheduleController::class, 'update']);
+    Route::delete('schedule/{id}', [ScheduleController::class,'destroy']);
 
 });

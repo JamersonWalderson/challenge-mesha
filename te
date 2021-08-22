@@ -1,0 +1,41 @@
+[33mcommit 58169bd5cd3d0509af7cafaecf2c60f1ac372f0a[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: jamesw <36804142+JamersonWalderson@users.noreply.github.com>
+Date:   Sun Aug 22 12:00:09 2021 -0300
+
+    criado store api doctor
+
+[33mcommit dbdcbca09992d6d57d7cc95aad6cfe0961f8c6ca[m
+Author: jamesw <36804142+JamersonWalderson@users.noreply.github.com>
+Date:   Sun Aug 22 11:54:23 2021 -0300
+
+    criado o doctor index api
+
+[33mcommit 7a7e3413239d389d9cde7fa9231a0c807e431557[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: jamesw <36804142+JamersonWalderson@users.noreply.github.com>
+Date:   Sun Aug 22 01:07:54 2021 -0300
+
+    bugfix: migrations precisam estar em plural
+
+[33mcommit af8fee8ad36c38a0f4f72aca25caa87fb3f2c7ad[m
+Author: jamesw <36804142+JamersonWalderson@users.noreply.github.com>
+Date:   Sat Aug 21 23:45:10 2021 -0300
+
+    criando migrations
+
+[33mcommit b0945ae8968515e4c26561bf78f7d6602b05e54b[m
+Author: jamesw <36804142+JamersonWalderson@users.noreply.github.com>
+Date:   Sat Aug 21 19:47:26 2021 -0300
+
+    atualizando readme
+
+[33mcommit ae5d4c2bb8326d0ae2035d8787f5f7b79fd60013[m
+Author: jamesw <36804142+JamersonWalderson@users.noreply.github.com>
+Date:   Sat Aug 21 19:44:36 2021 -0300
+
+    limpando readme
+
+[33mcommit 76c1b836b132f90b8d4b08ee39c66916f16491e6[m
+Author: jamesw <36804142+JamersonWalderson@users.noreply.github.com>
+Date:   Sat Aug 21 19:42:31 2021 -0300
+
+    first commit

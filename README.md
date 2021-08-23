@@ -94,3 +94,5 @@ Como o tempo de desenvolvimento foi curto, foi possivel finalizar apenas a api e
 
 A api está funcional e é necessário usar o Postman, para uma melhor visualização, a autenticação foi feita usando a tecnologia JWT(JSON WEB Token), e está funcional, assim como as funcionalidades da API, o frontend foi feito usando Blade, porém, com o curto tempo não foi possível adaptá-lo as funcionalidades já existentes, portanto, a parte WEB, não está concluída, a parte entregue conta somente com as telas estáticas e lorem ipsum.
 
+# Ferramentas usadas
+XAMPP, Figma(Prototipação do frontend), VS Code, Postman, Draw.io(criação dos diagramas), todoist(kanban), Pomodoro(controle de tempo), Toggle?(não se foi necessário)

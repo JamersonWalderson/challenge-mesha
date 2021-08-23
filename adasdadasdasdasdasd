@@ -1,0 +1,137 @@
+[33mcommit 2350db7fc59c28214f61504deff58681a9ca2800[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: jamesw <36804142+JamersonWalderson@users.noreply.github.com>
+Date:   Mon Aug 23 08:29:22 2021 -0300
+
+    criação da pasta diagrama
+
+[33mcommit f4ec472a59db590374d794adb5bcc1987234ebb3[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: jamesw <36804142+JamersonWalderson@users.noreply.github.com>
+Date:   Mon Aug 23 01:06:08 2021 -0300
+
+    criado doctor view
+
+[33mcommit d9c45e166529f7602838a5d99b42c69ad5abb330[m
+Author: jamesw <36804142+JamersonWalderson@users.noreply.github.com>
+Date:   Mon Aug 23 00:09:55 2021 -0300
+
+    criada rota speciality
+
+[33mcommit 6c4062caf9a4b2d33c6d9020819fa9ee0c14581f[m
+Author: jamesw <36804142+JamersonWalderson@users.noreply.github.com>
+Date:   Sun Aug 22 23:58:59 2021 -0300
+
+    view index link speciality
+
+[33mcommit b636057bc41acadb2342d607b813620a70497d08[m
+Author: jamesw <36804142+JamersonWalderson@users.noreply.github.com>
+Date:   Sun Aug 22 23:57:07 2021 -0300
+
+    criado view speciality
+
+[33mcommit 865a8e3de969d037b537d6f5c8494f4c300ffb3e[m
+Author: jamesw <36804142+JamersonWalderson@users.noreply.github.com>
+Date:   Sun Aug 22 23:27:27 2021 -0300
+
+    adicionando index blade
+
+[33mcommit 944ca6ef538e48c16165ded0a92fcecbc7f0b712[m
+Author: jamesw <36804142+JamersonWalderson@users.noreply.github.com>
+Date:   Sun Aug 22 18:58:57 2021 -0300
+
+    api finalizada
+
+[33mcommit b15e2e0cda216fe56b7f2ac11f6dd5f19d24751c[m
+Author: jamesw <36804142+JamersonWalderson@users.noreply.github.com>
+Date:   Sun Aug 22 18:55:42 2021 -0300
+
+    criado schedule api
+
+[33mcommit e709a466180e8ee6e6564a8e24032c20309a4584[m
+Author: jamesw <36804142+JamersonWalderson@users.noreply.github.com>
+Date:   Sun Aug 22 18:37:46 2021 -0300
+
+    criado comission api
+
+[33mcommit ea082ccbb844093d2caf30046f277df60390e875[m
+Author: jamesw <36804142+JamersonWalderson@users.noreply.github.com>
+Date:   Sun Aug 22 17:11:34 2021 -0300
+
+    criado speciality api
+
+[33mcommit 7d4b1c067fe4c1047f06807039678e66ba7e82ff[m
+Author: jamesw <36804142+JamersonWalderson@users.noreply.github.com>
+Date:   Sun Aug 22 16:09:10 2021 -0300
+
+    versão antiga specialities
+
+[33mcommit 9adeaa63cd9b6e439e4d5f739f04e154aeda09ed[m
+Author: jamesw <36804142+JamersonWalderson@users.noreply.github.com>
+Date:   Sun Aug 22 13:34:01 2021 -0300
+
+    criação do mutator que converte a saida json doctor_id para o nome do doutor
+
+[33mcommit c9ea08e6476643c3654569cf97976c26e71e4dad[m
+Author: jamesw <36804142+JamersonWalderson@users.noreply.github.com>
+Date:   Sun Aug 22 12:40:56 2021 -0300
+
+    criação de rotas da speciality controller
+
+[33mcommit 7c7c62eb62eeac83f7183515cd1cb9aae6e085aa[m
+Author: jamesw <36804142+JamersonWalderson@users.noreply.github.com>
+Date:   Sun Aug 22 12:29:36 2021 -0300
+
+    criado doctor show api
+
+[33mcommit 1c15accf843802e137fc8c4109b6d819a8ab5c9d[m
+Author: jamesw <36804142+JamersonWalderson@users.noreply.github.com>
+Date:   Sun Aug 22 12:21:09 2021 -0300
+
+    criado doctor delete api
+
+[33mcommit b680b2ad75ca77c7df8f52e50c05b7aa6fcc86a4[m
+Author: jamesw <36804142+JamersonWalderson@users.noreply.github.com>
+Date:   Sun Aug 22 12:17:14 2021 -0300
+
+    criado doctor update api
+
+[33mcommit 58169bd5cd3d0509af7cafaecf2c60f1ac372f0a[m
+Author: jamesw <36804142+JamersonWalderson@users.noreply.github.com>
+Date:   Sun Aug 22 12:00:09 2021 -0300
+
+    criado store api doctor
+
+[33mcommit dbdcbca09992d6d57d7cc95aad6cfe0961f8c6ca[m
+Author: jamesw <36804142+JamersonWalderson@users.noreply.github.com>
+Date:   Sun Aug 22 11:54:23 2021 -0300
+
+    criado o doctor index api
+
+[33mcommit 7a7e3413239d389d9cde7fa9231a0c807e431557[m
+Author: jamesw <36804142+JamersonWalderson@users.noreply.github.com>
+Date:   Sun Aug 22 01:07:54 2021 -0300
+
+    bugfix: migrations precisam estar em plural
+
+[33mcommit af8fee8ad36c38a0f4f72aca25caa87fb3f2c7ad[m
+Author: jamesw <36804142+JamersonWalderson@users.noreply.github.com>
+Date:   Sat Aug 21 23:45:10 2021 -0300
+
+    criando migrations
+
+[33mcommit b0945ae8968515e4c26561bf78f7d6602b05e54b[m
+Author: jamesw <36804142+JamersonWalderson@users.noreply.github.com>
+Date:   Sat Aug 21 19:47:26 2021 -0300
+
+    atualizando readme
+
+[33mcommit ae5d4c2bb8326d0ae2035d8787f5f7b79fd60013[m
+Author: jamesw <36804142+JamersonWalderson@users.noreply.github.com>
+Date:   Sat Aug 21 19:44:36 2021 -0300
+
+    limpando readme
+
+[33mcommit 76c1b836b132f90b8d4b08ee39c66916f16491e6[m
+Author: jamesw <36804142+JamersonWalderson@users.noreply.github.com>
+Date:   Sat Aug 21 19:42:31 2021 -0300
+
+    first commit

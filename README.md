@@ -30,3 +30,11 @@ Ao finalizar deverá exibir um resumo do atendimento com o valor total a ser pag
 # Projeto de telas (Figma)
 Ajustes: layout gride, columns, count: 12, type: center, width: 70, gutter: 30. 
 ![Demo](https://github.com/JamersonWalderson/challenge-mesha/blob/main/doc/projeto-de-telas.png)
+
+# Projeto de telas
+Fluxo 1
+![Demo](https://github.com/JamersonWalderson/challenge-mesha/blob/main/doc/fluxo-1.jpg)
+Fluxo 2
+![Demo](https://github.com/JamersonWalderson/challenge-mesha/blob/main/doc/fluxo-2.jpg)
+Fluxo 3
+![Demo](https://github.com/JamersonWalderson/challenge-mesha/blob/main/doc/fluxo-3.jpg)

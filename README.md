@@ -88,3 +88,9 @@ As rotas abaixo não são protegidas e podem ser acessadas livremente
 /api/schedule
 
 - rotas protegidas contem o prefixo 'api/auth'
+
+# Observações
+Como o tempo de desenvolvimento foi curto, foi possivel finalizar apenas a api e algumas telas da aplicação, a api foi inteiramente construida usando Laravel 8, porém, as telas do Frontend foram desenvolvidas usando Bootstrap 5, sei que o desafio pede que seja feito em React/Angular, porém no momento não possuo conhecimentos suficientes para fazer com a mesma qualidade que se encontra no momento usando essas outras tecnologias, entretanto, isso não me impede em nada de estudá-las, e com uma curva de aprendizado mais longa usar em projetos futuros.
+
+A api está funcional e é necessário usar o Postman, para uma melhor visualização, a autenticação foi feita usando a tecnologia JWT(JSON WEB Token), e está funcional, assim como as funcionalidades da API, o frontend foi feito usando Blade, porém, com o curto tempo não foi possível adaptá-lo as funcionalidades já existentes, portanto, a parte WEB, não está concluída, a parte entregue conta somente com as telas estáticas e lorem ipsum.
+

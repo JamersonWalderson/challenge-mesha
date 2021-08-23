@@ -10,7 +10,7 @@ Ao finalizar deverá exibir um resumo do atendimento com o valor total a ser pag
 
 # Requisitos funcionais
 - [x] Desenvolvimento de CRUD.
-- [ ] Desenvolver o fluxo de atendimento de uma clinica.
+- [x] Desenvolver o fluxo de atendimento de uma clinica.
 
 # Requisitos não funcionais
 - [x] Utilize o banco PostgreSQL/Mysql.

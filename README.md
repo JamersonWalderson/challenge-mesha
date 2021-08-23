@@ -50,3 +50,41 @@ Fluxo 3
 - colar o conteúdo de .env.example
 - $ php artisan key:generate
 
+O projeto é composto de uma API RESTful desenvolvida em Laravel 8, então para usar as funcionalidades dela é necessário baixar o Postman
+<a href="https://www.postman.com/downloads/">Link para download direto da página oficial</a>
+
+# Rotas: web
+As rotas abaixo não são protegidas e podem ser acessadas livremente
+
+
+-Rota para login e cadastro de usuários
+/login
+/register
+
+- Médicos
+/doctor
+
+- Comissões
+/comission
+
+- Agendamentos
+/schedule
+
+- rotas protegidas contem o prefixo 'auth'
+
+#Rotas: api
+As rotas abaixo não são protegidas e podem ser acessadas livremente
+
+/login
+/register
+
+- Médicos
+/api/doctor
+
+- Comissões
+/api/comission
+
+- Agendamentos
+/api/schedule
+
+- rotas protegidas contem o prefixo 'api/auth'

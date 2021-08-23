@@ -20,3 +20,9 @@ Ao finalizar deverá exibir um resumo do atendimento com o valor total a ser pag
 - [x] Não commitar na branch master.
 - [x] Desenvolvimento do Backend com laravel.
 - [ ] Desenvolvimento do frontend com React/Angular.
+
+# Diagrama de casos de uso
+![Demo](https://github.com/JamersonWalderson/challenge-mesha/blob/main/doc/caso-de-uso.jpg)
+
+# Diagrama de classes e relacionamentos
+![Demo](https://github.com/JamersonWalderson/challenge-mesha/blob/main/doc/diagrama-de-classes.png)

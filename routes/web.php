@@ -13,5 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () { return view('index'); });
-Route::get('/speciality', function () { return view('speciality'); });
+Route::get('/', function () { return view('index');})->name('index');
+Route::get('speciality', function () { return view('speciality');})->name('speciality');

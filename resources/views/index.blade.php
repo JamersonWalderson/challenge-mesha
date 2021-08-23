@@ -35,31 +35,31 @@
       <h3 class="text-uppercase text-center py-5">NOSSOS PROCEDIMENTOS</h3>
       <div class="row">
         <div class="col-md-4 text-center">
-          <a href="">
+          <a href="{{ route('speciality') }}">
             <p class="py-2">Cirurgia lorem ipsum</p>
             <img src="http://via.placeholder.com/1024x720" class="img-fluid img-speciality">
           </a>
         </div>
         <div class="col-md-4 text-center">
-          <a href="">
+          <a href="{{ route('speciality') }}">
             <p class="py-2">Cirurgia lorem ipsum</p>
             <img src="http://via.placeholder.com/1024x720" class="img-fluid img-speciality">
           </a>
         </div>
         <div class="col-md-4 text-center">
-          <a href="">
+          <a href="{{ route('speciality') }}">
             <p class="py-2">Cirurgia lorem ipsum</p>
             <img src="http://via.placeholder.com/1024x720" class="img-fluid img-speciality">
           </a>
         </div>
         <div class="col-md-4 text-center">
-          <a href="">
+          <a href="{{ route('speciality') }}">
             <p class="py-2">Cirurgia lorem ipsum</p>
             <img src="http://via.placeholder.com/1024x720" class="img-fluid img-speciality">
           </a>
         </div>
         <div class="col-md-4 text-center">
-          <a href="">
+          <a href="{{ route('speciality') }}">
             <p class="py-2">Cirurgia lorem ipsum</p>
             <img src="http://via.placeholder.com/1024x720" class="img-fluid img-speciality">
           </a>

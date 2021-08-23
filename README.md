@@ -40,3 +40,13 @@ Fluxo 3
 ![Demo](https://github.com/JamersonWalderson/challenge-mesha/blob/main/doc/fluxo-3.jpg)
 Fluxo 3
 ![Demo](https://github.com/JamersonWalderson/challenge-mesha/blob/main/doc/fluxo-4.png)
+
+# Como fazer a instação
+- $ git clone https://github.com/JamersonWalderson/challenge-mesha.git
+- $ cd challenge-mesha
+- $ composer install
+- copiar o conteúdo de .env.example
+- criar um arquivo .env
+- colar o conteúdo de .env.example
+- $ php artisan key:generate
+

@@ -30,33 +30,13 @@
     </div>
   </section>
 
-  <main>
+  <main class="py-5">
     <div class="container py-5">
-      <h3 class="text-uppercase text-center py-5">NOSSOS PROCEDIMENTOS</h3>
-      <div class="row">
-        <div class="col-md-4 text-center">
-          <p class="py-2">Cirurgia lorem ipsum</p>
-          <img src="http://via.placeholder.com/1024x720" class="img-fluid img-speciality">
-        </div>
-        <div class="col-md-4 text-center">
-          <p class="py-2">Cirurgia lorem ipsum</p>
-          <img src="http://via.placeholder.com/1024x720" class="img-fluid img-speciality">
-        </div>
-        <div class="col-md-4 text-center">
-          <p class="py-2">Cirurgia lorem ipsum</p>
-          <img src="http://via.placeholder.com/1024x720" class="img-fluid img-speciality">
-        </div>
-        <div class="col-md-4 text-center">
-          <p class="py-2">Cirurgia lorem ipsum</p>
-          <img src="http://via.placeholder.com/1024x720" class="img-fluid img-speciality">
-        </div>
-        <div class="col-md-4 text-center">
-          <p class="py-2">Cirurgia lorem ipsum</p>
-          <img src="http://via.placeholder.com/1024x720" class="img-fluid img-speciality">
-        </div>
-      </div>
-    </div>
-  </main>
+      <h3 class="text-uppercase text-center py-5">CIRURGIA LOREM IPSUM</h3>
+      <img src="http://via.placeholder.com/1024x720" class="img-fluid img-speciality-show float-start">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus totam neque delectus odio nisi exercitationem vel necessitatibus veritatis laboriosam obcaecati quos excepturi, consectetur fugit fugiat. Dolorem corporis sapiente iure soluta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates reiciendis maiores vero unde ratione culpa impedit soluta voluptatibus, corrupti recusandae, atque, facilis aperiam doloribus saepe neque nisi ex deserunt dolores! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, laboriosam excepturi distinctio assumenda porro, magni nemo eaque ipsa ipsam necessitatibus deleniti cumque esse maiores animi ut doloribus dicta quae rem.</p>
+      <a href="#">Tenho interesse</a>
+    </main>
 
   <footer>
     <section id="footer-info">

@@ -15,6 +15,19 @@
     height: 15rem !important;
 
 }
+.img-speciality-show {
+    height: 14rem;
+    margin: 0px 20px 20px 0px;
+
+}
+
+main a {
+    text-decoration: none;
+}
+
+footer {
+    clear: both;
+}
 #footer-info {
     background-color: teal;
 
